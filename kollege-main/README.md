@@ -1,8 +1,5 @@
-# KOLLEGE
-
+#Campus-Connect-HUB
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
-[kollege.onrender.com](https://kollege.onrender.com)
 
 A College Based Data Management System.
 
@@ -12,11 +9,6 @@ A College Based Data Management System.
 
 PS: BE KIND :)
 
-### Teacher
-
-**username:** Delphine  
-**pwd:** Delphine123
-
 Teacher can add or edit
 
 - Notes
@@ -24,10 +16,6 @@ Teacher can add or edit
 - Internal Marks
 - Time Schedule
 
-### HOD
-
-**username:** Moriah  
-**pwd:** Moriah123
 
 HOD can do everything Teacher can.  
 HOD can also
@@ -35,12 +23,7 @@ HOD can also
 - Approve new Teacher
 - Add New Paper
 
-### Student
-
-**username:** Bret  
-**pwd:** Bret
-
-Or register a new Student and Login.  
+register as new Student and Login.  
 You can also login with the First Name of any student in the class.
 
 Student can view
@@ -68,19 +51,14 @@ Student can also join or leave a Paper(Subject).
 
 ## Run Locally
 
-Clone the project - Kollege:
+Clone the project:
 
 ```bash
-  git clone https://github.com/iafthab/5.6-Kollege
+  git clone https://github.com/Kshitij-Sharma-19/Campus-Connect-Hub.git
 ```
 
-Clone the backend - Kollege API:
 
-```bash
-  git clone https://github.com/iafthab/4.4-Kollege_API
-```
-
-Open Kollege API project, create a .env file and paste your database URI:
+Open project, create a .env file and paste your database URI:
 
 ```javascript
   DATABASE_URI = mongodb+srv:/...
@@ -92,13 +70,13 @@ Install dependencies on both projects:
   npm install
 ```
 
-Start the server in Kollege API:
+Start the server:
 
 ```bash
   npm run start
 ```
 
-On the Kollege project, go to src/config/api/axios.js. change the baseURL:
+On the  project, go to src/config/api/axios.js. change the baseURL:
 
 ```javascript
 baseURL: "http://localhost:3500";
@@ -118,7 +96,7 @@ Finally,
 
 ### Still getting errors?
 
-In the Kollege API project, go to config/allowedOptions.js. Make sure your front-end address is included:
+In the project, go to config/allowedOptions.js. Make sure your front-end address is included:
 
 ```javascript
 const allowedOrigins = ["http://localhost:3000", "https://example.address.com"];
@@ -139,14 +117,6 @@ const allowedOrigins = ["http://localhost:3000", "https://example.address.com"];
 - [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
 - [Axios](https://axios-http.com/)
 - [README Editor](readme.so)
-
-## Related
-
-[KOLLEGE API](https://github.com/afthab-i/4.4-Kollege_API)
-
-## Feedback
-
-If you have any feedback, please reach out to me at [here](mailto:afthabiqbal123@gmail.com). Thank You ❤️.
 
 ## License
 
